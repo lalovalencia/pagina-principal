@@ -1,0 +1,117 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.contenedor{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.bienvenida{
+    width: 100%;
+    height: 8%;
+    background-color: blue;
+    color:white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.informacion{
+    width: 100%;
+    height: 30%;
+    background-color: red;
+}
+
+.informacion img{
+    width: 180px;
+    height: 180px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.informacion p{
+    width: 85%;
+    float: right;
+    padding-top: 40px;
+    font-size: 30px;
+}
+
+.habilidades{
+    width: 100%;
+    height: 35%;
+    background-color: seagreen;
+    position: fixed;
+}
+    .skill{
+        width: 25%;
+        height: 35%;
+        text-align: center;
+        position: fixed;
+        margin-top: 5px;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+
+    .skill img{
+        width: 170px;
+        height: 180px;
+    }
+
+    #skill1{
+        margin-left: 8%;
+    }
+
+    #skill2{
+        margin-left: 37%;
+    }
+
+    #skill3{
+        margin-left: 65%;
+    }
+
+.contacto{
+    width: 100%;
+    height: 30%;
+    position: fixed;
+    background-color: yellow;
+    margin-top: 17%;
+}
+
+.mitad-uno,.mitad-dos{
+    width: 30%;
+    height: 30%;
+    position: fixed;
+    font-size: 20px;
+}
+
+.mitad-uno{
+    margin-left: 200px;
+}
+
+.mitad-dos{
+    /*padding-left: 80px;*/
+    margin-left: 55%;
+    position: fixed;
+}
+
+.contacto img{
+    width: 25px;
+    height: 25px;
+    position: fixed;
+}
+
+.mitad-dos p{
+    /*margin-left: 100px;*/
+    position: fixed;
+    margin-left: 50px;
+}
+
+#pIns,#imgIns{
+    margin-top: 30px;
+}
+
+#pT,#imgT{
+    margin-top: 60px;
+}
